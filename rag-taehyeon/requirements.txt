@@ -1,0 +1,6 @@
+numpy>=1.26
+kiwipiepy>=0.18                # 한국어 형태소 분석 (BM25). 없으면 글자 단위로 대신 동작
+psycopg[binary]>=3.1           # DB에서 조각과 임베딩을 읽을 때
+sentence-transformers>=3.0     # BGE-M3 (Dense 검색, 질문 분류). 없으면 BM25만 동작
+FlagEmbedding>=1.2             # (선택) ColBERT 재정렬
+pytest>=8

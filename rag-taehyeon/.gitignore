@@ -1,0 +1,10 @@
+.rag_cache/
+__pycache__/
+*.pyc
+.venv/
+.env
+.pytest_cache/
+*.egg-info/
+rerank_exp_pack.zip
+rag_cache/
+_work/
